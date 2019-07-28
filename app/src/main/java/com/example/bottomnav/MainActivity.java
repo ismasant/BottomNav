@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity  implements NotiFragment.OnF
         navView.setOnNavigationItemSelectedListener(navListener);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_container,new HomeFragment()).commit();
+
+        // hola mundo
     }
 
     @Override
